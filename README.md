@@ -2,8 +2,9 @@
 # SAWO x Flutter
 Custom Onboarding Screen and User Model to work with SAWO in Flutter.
 
-**What is SAWO?**
-SAWO is an authentication solution that can onboard users without any passwords or OTPs, thus making the process hassle-free, quick and secure.
+## What is SAWO?
+
+[SAWO](https://sawolabs.com/) is an authentication solution that can onboard users without any passwords or OTPs, thus making the process hassle-free, quick and secure.
 
 ## Screenshots
 
@@ -24,3 +25,20 @@ SAWO is an authentication solution that can onboard users without any passwords 
         </tr>
  </table>
 <br>
+
+## How to run?
+Read the package documentation here: https://pub.dev/packages/sawo
+
+#### Create API Key
+
+-   Login to sawo  [dev console.](https://dev.sawolabs.com/)
+-   Create a new project
+    -   Select Hybrid and then select Flutter under that section
+    -   Set Project Name
+-   Copy your API key & Secret Key from the file which has been downloaded automatically.
+
+#### Replace the 'Your API Key' and 'Your Secret Key' text in
+`'package:sawo_flutter/screens/onboarding_screen.dart'`
+ with API and Secret key of your own to create the Sawo Instance
+
+#### Run the Project
